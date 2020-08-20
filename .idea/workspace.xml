@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.14.4" />
+  <component name="ProjectId" id="1g94QorcEu6zR0dfCM7G7WMU8Ky" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/extra" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/extra" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra">
+    <configuration name="go build contextTimeoutLecture (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/example07_time_sleep.go" />
+      <package value="contextTimeoutLecture" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/example08_time_tick_range.go" />
+      <package value="contextTimeoutLecture" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/example10_time_new_ticker.go" />
+      <package value="contextTimeoutLecture" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/example06_time_after.go" />
+      <package value="contextTimeoutLecture" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture/extra" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/extra/exampl00_my_timeout.go" />
+      <package value="contextTimeoutLecture/extra" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture (4)" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture (3)" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture (2)" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1634" height="259" key="GridCell.Tab.0.bottom" timestamp="1597739141034">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state width="1634" height="259" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1597739141034" />
+    <state width="1634" height="259" key="GridCell.Tab.0.center" timestamp="1597739141033">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state width="1634" height="259" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1597739141033" />
+    <state width="1634" height="259" key="GridCell.Tab.0.left" timestamp="1597739141033">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state width="1634" height="259" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1597739141033" />
+    <state width="1634" height="259" key="GridCell.Tab.0.right" timestamp="1597739141034">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state width="1634" height="259" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1597739141034" />
+    <state x="531" y="261" width="880" height="522" key="find.popup" timestamp="1597611088015">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state x="531" y="261" width="880" height="522" key="find.popup/0.27.1680.990@0.27.1680.990" timestamp="1597611088015" />
+  </component>
+</project>
