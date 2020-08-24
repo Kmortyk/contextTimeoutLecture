@@ -34,7 +34,7 @@ func main() {
 		<-signalChan
 	}()
 
-	size := 100_000_000
+	const size = 100_000_000
 	array := make([]int, size)
 
 	for i := 0; i < size; i++ {
@@ -46,7 +46,7 @@ func main() {
 
 func sumArrayAndPrint(ctx context.Context, array *[]int) int {
 	length := len(*array)
-	partsNum := 100
+	const partsNum = 100
 
 	step := length / partsNum
 	results := make([]int, partsNum)

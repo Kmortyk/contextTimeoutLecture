@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/extra/example03_timeout_decorator.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/example00_context_done.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_context_done.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example00_context_done.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example01_context_done.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example01_timeout_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example02_timeout_decorator.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra (2)">
-    <configuration name="go build contextTimeoutLecture (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="contextTimeoutLecture" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example08_time_tick_range.go" />
-      <package value="contextTimeoutLecture" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra (3)">
     <configuration name="go build contextTimeoutLecture (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,6 +100,25 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build contextTimeoutLecture/extra (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/extra/example03_timeout_decorator.go" />
+      <package value="contextTimeoutLecture/extra" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build contextTimeoutLecture/extra" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra (3)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture/extra (2)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture/extra (1)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture/extra" />
         <item itemvalue="Go Build.go build contextTimeoutLecture (4)" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -152,37 +154,38 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Extra update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extra update" />
+    <MESSAGE value="Last fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597907477710">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.990@0.27.1680.990" timestamp="1597907477710" />
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598259665903">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598278337437">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598259665903" />
-    <state width="817" height="236" key="GridCell.Tab.0.bottom" timestamp="1598278262011">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598278337437" />
+    <state width="817" height="236" key="GridCell.Tab.0.bottom" timestamp="1598280615671">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="236" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
-    <state width="817" height="236" key="GridCell.Tab.0.center" timestamp="1598278262011">
+    <state width="817" height="236" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598280615671" />
+    <state width="817" height="236" key="GridCell.Tab.0.center" timestamp="1598280615671">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="236" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
-    <state width="817" height="236" key="GridCell.Tab.0.left" timestamp="1598278262010">
+    <state width="817" height="236" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598280615671" />
+    <state width="817" height="236" key="GridCell.Tab.0.left" timestamp="1598280615671">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="236" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598278262010" />
-    <state width="817" height="236" key="GridCell.Tab.0.right" timestamp="1598278262011">
+    <state width="817" height="236" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598280615671" />
+    <state width="817" height="236" key="GridCell.Tab.0.right" timestamp="1598280615671">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="236" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598259667184">
+    <state width="817" height="236" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598280615671" />
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598278339182">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598259667184" />
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598278339182" />
     <state x="531" y="261" width="880" height="522" key="find.popup" timestamp="1597611088015">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
