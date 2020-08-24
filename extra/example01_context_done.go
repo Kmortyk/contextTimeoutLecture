@@ -68,8 +68,12 @@ func sumArrayAndPrint(ctx context.Context, array *[]int) int {
 		}(idx)
 	}
 
-	for i := 0; i < partsNum; i++ {
-		<-res
+	i := 0
+	for range res {
+		i++
+		if i >= partsNum {
+			break
+		}
 	}
 
 	return sum(ctx, &results)
