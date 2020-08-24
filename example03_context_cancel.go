@@ -29,8 +29,6 @@ func main() {
 	cancel()
 
 	_, _, _ = <-endCh, <-endCh, <-endCh
-
-	close(endCh)
 }
 
 func Worker(ctx context.Context, data string, endCh chan<- struct{}) {
