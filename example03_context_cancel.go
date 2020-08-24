@@ -13,7 +13,7 @@ import (
 
 	В интерфейсе Context отсутствует метод Cancel, отмену может
 	произвести только метод, который создал контекст.
- */
+*/
 
 func main() {
 	ctx, cancel := context.WithCancel(context.Background())
@@ -29,9 +29,11 @@ func main() {
 	cancel()
 
 	_, _, _ = <-endCh, <-endCh, <-endCh
+
+	close(endCh)
 }
 
-func Worker(ctx context.Context, data string, endCh chan <- struct{}) {
+func Worker(ctx context.Context, data string, endCh chan<- struct{}) {
 	for {
 		select {
 		case <-ctx.Done():
