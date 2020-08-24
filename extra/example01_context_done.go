@@ -31,6 +31,8 @@ func main() {
 			cancel()
 		case <-ctx.Done():
 		}
+		<-signalChan
+		fmt.Println("\nCatch CTRL + C !")
 	}()
 
 	const size = 100_000_000
