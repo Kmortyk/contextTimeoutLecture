@@ -8,37 +8,50 @@ import (
 	"os/signal"
 )
 
+/*
+	Можно перехватывать сигналы операционной системы и
+	завершать программу в штатном режиме.
+*/
+
 func main() {
-	size := 100000000
+	ctx := context.Background()
+	ctx, cancel := context.WithCancel(ctx)
+	signalChan := make(chan os.Signal, 1)
+
+	signal.Notify(signalChan, os.Interrupt)
+	defer func() {
+		signal.Stop(signalChan)
+		cancel()
+	}()
+
+	go func() {
+		select {
+		case <-signalChan:
+			fmt.Println("\nCatch CTRL + C !")
+			cancel()
+		case <-ctx.Done():
+		}
+		<-signalChan
+	}()
+
+	size := 100_000_000
 	array := make([]int, size)
 
 	for i := 0; i < size; i++ {
 		array[i] = rand.Intn(10)
 	}
-
-	ctx, cancel := context.WithCancel(context.Background())
-	resultChan := make(chan int)
-	go sumArrayAndPrint(ctx, resultChan, &array)
-
-	// обрабатываем Ctrl+C
-	sigChan := make(chan os.Signal, 1)
-	signal.Notify(sigChan, os.Interrupt)
-
-	select {
-	case <-sigChan:
-		fmt.Println("Ctrl + C catch")
-		cancel()
-	case res := <-resultChan:
-		fmt.Printf("result sum: %v\n", res)
-	}
+	sum := sumArrayAndPrint(ctx, &array)
+	fmt.Println(sum)
 }
 
-func sumArrayAndPrint(ctx context.Context, resultChan chan int, array *[]int) {
+func sumArrayAndPrint(ctx context.Context, array *[]int) int {
 	length := len(*array)
 	partsNum := 100
 
 	step := length / partsNum
 	results := make([]int, partsNum)
+
+	res := make(chan struct{})
 
 	for idx := 0; idx < partsNum; idx++ {
 		start := idx * step
@@ -52,10 +65,15 @@ func sumArrayAndPrint(ctx context.Context, resultChan chan int, array *[]int) {
 
 		go func(idx int) {
 			results[idx] = sum(ctx, &part)
+			res <- struct{}{}
 		}(idx)
 	}
 
-	resultChan <- sum(ctx, &results)
+	for i := 0; i < partsNum; i++ {
+		<-res
+	}
+
+	return sum(ctx, &results)
 }
 
 func sum(ctx context.Context, array *[]int) int {

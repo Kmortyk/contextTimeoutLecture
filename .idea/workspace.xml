@@ -4,9 +4,6 @@
     <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extra/example00_context_done.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_context_done.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/example00_my_ticker.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_my_ticker.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/example01_timeout_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example01_timeout_decorator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/example02_timeout_runner.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -152,27 +150,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Extra update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extra update" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597907477710">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.990@0.27.1680.990" timestamp="1597907477710" />
-    <state width="1634" height="259" key="GridCell.Tab.0.bottom" timestamp="1597739141034">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598259665903">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1634" height="259" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1597739141034" />
-    <state width="1634" height="259" key="GridCell.Tab.0.center" timestamp="1597739141033">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598259665903" />
+    <state width="817" height="236" key="GridCell.Tab.0.bottom" timestamp="1598278262011">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1634" height="259" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1597739141033" />
-    <state width="1634" height="259" key="GridCell.Tab.0.left" timestamp="1597739141033">
+    <state width="817" height="236" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
+    <state width="817" height="236" key="GridCell.Tab.0.center" timestamp="1598278262011">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1634" height="259" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1597739141033" />
-    <state width="1634" height="259" key="GridCell.Tab.0.right" timestamp="1597739141034">
+    <state width="817" height="236" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
+    <state width="817" height="236" key="GridCell.Tab.0.left" timestamp="1598278262010">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1634" height="259" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1597739141034" />
+    <state width="817" height="236" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598278262010" />
+    <state width="817" height="236" key="GridCell.Tab.0.right" timestamp="1598278262011">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state width="817" height="236" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598278262011" />
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598259667184">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598259667184" />
     <state x="531" y="261" width="880" height="522" key="find.popup" timestamp="1597611088015">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
