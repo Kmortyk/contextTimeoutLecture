@@ -39,12 +39,12 @@ func main() {
 	for i := 0; i < size; i++ {
 		array[i] = rand.Intn(10)
 	}
-	sum := sumArrayAndPrint(ctx, &array)
+	sum := sumArrayAndPrint(ctx, array)
 	fmt.Println(sum)
 }
 
-func sumArrayAndPrint(ctx context.Context, array *[]int) int {
-	length := len(*array)
+func sumArrayAndPrint(ctx context.Context, array []int) int {
+	length := len(array)
 	const partsNum = 100
 
 	step := length / partsNum
@@ -60,7 +60,7 @@ func sumArrayAndPrint(ctx context.Context, array *[]int) int {
 			end += length % partsNum
 		}
 
-		part := (*array)[start:end]
+		part := array[start:end]
 
 		go func(idx int) {
 			results[idx] = sum(ctx, &part)

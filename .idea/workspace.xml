@@ -33,6 +33,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/extra" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,37 +155,42 @@
     <MESSAGE value="Extra update" />
     <MESSAGE value="Last fixes" />
     <MESSAGE value="LastLast fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="LastLast fixes" />
+    <MESSAGE value="LastLastLast fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="LastLastLast fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597907477710">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.990@0.27.1680.990" timestamp="1597907477710" />
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598281261358">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598281782627">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598281261358" />
-    <state width="817" height="255" key="GridCell.Tab.0.bottom" timestamp="1598281768578">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598281782627" />
+    <state width="1075" height="168" key="GridCell.Tab.0.bottom" timestamp="1598283978778">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="255" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598281768578" />
-    <state width="817" height="255" key="GridCell.Tab.0.center" timestamp="1598281768578">
+    <state width="1075" height="168" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598283978778" />
+    <state width="1075" height="168" key="GridCell.Tab.0.center" timestamp="1598283978777">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="255" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598281768578" />
-    <state width="817" height="255" key="GridCell.Tab.0.left" timestamp="1598281768578">
+    <state width="1075" height="168" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598283978777" />
+    <state width="1075" height="168" key="GridCell.Tab.0.left" timestamp="1598283978777">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="255" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598281768578" />
-    <state width="817" height="255" key="GridCell.Tab.0.right" timestamp="1598281768578">
+    <state width="1075" height="168" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598283978777" />
+    <state width="1075" height="168" key="GridCell.Tab.0.right" timestamp="1598283978778">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="817" height="255" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598281768578" />
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598281262289">
+    <state width="1075" height="168" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598283978778" />
+    <state x="329" y="157" width="1022" height="737" key="SettingsEditor" timestamp="1598283065257">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598281262289" />
+    <state x="329" y="157" width="1022" height="737" key="SettingsEditor/0.27.1680.990@0.27.1680.990" timestamp="1598283065257" />
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598281783616">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598281783616" />
     <state x="531" y="261" width="880" height="522" key="find.popup" timestamp="1597611088015">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
