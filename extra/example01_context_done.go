@@ -31,7 +31,6 @@ func main() {
 			cancel()
 		case <-ctx.Done():
 		}
-		<-signalChan
 	}()
 
 	const size = 100_000_000

@@ -3,8 +3,14 @@ package main
 import (
 	"context"
 	"fmt"
+	"sync"
 	"time"
 )
+
+/*
+	Пример пул воркеров, каждый хранит два контекста - один общий,
+	другой - для остановки конкретного воркера.
+*/
 
 type Worker struct {
 	idx int
@@ -12,11 +18,13 @@ type Worker struct {
 	programCtx context.Context
 	workerCtx  context.Context
 
-	cancel    context.CancelFunc
+	cancel context.CancelFunc
+
+	mu        sync.RWMutex
 	isStopped bool
 }
 
-func NewWorker(idx int, ctx context.Context) *Worker {
+func NewWorker(ctx context.Context, idx int) *Worker {
 	workerCtx, cancel := context.WithCancel(context.Background())
 
 	return &Worker{
@@ -49,20 +57,26 @@ func (w *Worker) Start() {
 
 func (w *Worker) Stop() {
 	w.cancel()
+
+	w.mu.Lock()
+	defer w.mu.Unlock()
 	w.isStopped = true
 }
 
 func (w *Worker) IsStopped() bool {
+	w.mu.RLock()
+	defer w.mu.RUnlock()
+
 	return w.isStopped
 }
 
 func main() {
 	const numWorkers = 5
 	ctx, cancel := context.WithCancel(context.Background())
-	workers := make([]*Worker, numWorkers)
+	workers := make([]*Worker, numWorkers) // slice из nil'ов
 
 	for workerIdx := 0; workerIdx < numWorkers; workerIdx++ {
-		workers[workerIdx] = NewWorker(workerIdx, ctx)
+		workers[workerIdx] = NewWorker(ctx, workerIdx)
 		workers[workerIdx].Start()
 	}
 
