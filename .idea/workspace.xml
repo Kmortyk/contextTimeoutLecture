@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="" />
+    <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example00_context_done.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_context_done.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example00_my_ticker.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_my_ticker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example01_timeout_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example01_timeout_decorator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example02_timeout_runner.go" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +21,9 @@
     </option>
   </component>
   <component name="GOROOT" path="$USER_HOME$/sdk/go1.14.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g94QorcEu6zR0dfCM7G7WMU8Ky" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,26 +42,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra">
-    <configuration name="go build contextTimeoutLecture (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="contextTimeoutLecture" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example07_time_sleep.go" />
-      <package value="contextTimeoutLecture" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra (2)">
     <configuration name="go build contextTimeoutLecture (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
@@ -91,7 +81,7 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build contextTimeoutLecture" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build contextTimeoutLecture/extra (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -105,15 +95,44 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example06_time_after.go" />
-      <package value="contextTimeoutLecture" />
+      <filePath value="$PROJECT_DIR$/extra/example01_timeout_decorator.go" />
+      <package value="contextTimeoutLecture/extra" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture/extra (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/extra/example00_context_done.go" />
+      <package value="contextTimeoutLecture/extra" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="go build contextTimeoutLecture/extra" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/extra/exampl00_my_timeout.go" />
       <package value="contextTimeoutLecture/extra" />
       <directory value="$PROJECT_DIR$" />
@@ -121,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra (2)" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra (1)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture/extra" />
         <item itemvalue="Go Build.go build contextTimeoutLecture (4)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture (3)" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture (2)" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +153,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597907477710">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.990@0.27.1680.990" timestamp="1597907477710" />
     <state width="1634" height="259" key="GridCell.Tab.0.bottom" timestamp="1597739141034">
       <screen x="0" y="27" width="1680" height="990" />
     </state>

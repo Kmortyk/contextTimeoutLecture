@@ -5,7 +5,12 @@ import (
 	"time"
 )
 
-func newTicker() <- chan bool {
+/*
+	Такие примитивы синхронизации, как ticker и timeout можно реализовать
+	при помощи отдельных гортин и каналов.
+*/
+
+func newTicker() <-chan bool {
 	ticker := make(chan bool, 1)
 	go func() {
 		for {
@@ -16,7 +21,7 @@ func newTicker() <- chan bool {
 	return ticker
 }
 
-func main()  {
+func main() {
 	ticker := newTicker()
 
 	for {
