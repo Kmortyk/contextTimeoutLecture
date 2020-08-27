@@ -12,7 +12,7 @@ import (
 
 func handleFunction(message string) string {
 	// делаем некоторые тяжёлые операции
-	time.Sleep(5 * time.Second)
+	time.Sleep(4 * time.Second)
 
 	return fmt.Sprintf("hello, %v", message)
 }
@@ -27,6 +27,7 @@ func timeoutDecorator(handler func(string) string) {
 
 	select {
 	case <-resultCh:
+		fmt.Println("job done")
 	case <-timeout:
 		panic("timeout")
 	}

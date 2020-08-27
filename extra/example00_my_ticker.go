@@ -11,7 +11,7 @@ import (
 */
 
 func newTicker() <-chan bool {
-	ticker := make(chan bool, 1)
+	ticker := make(chan bool)
 	go func() {
 		for {
 			time.Sleep(1 * time.Second)

@@ -12,21 +12,26 @@ import (
 
 func main() {
 	// создаём переменые вне цикла !!!
-	timeout := time.After(10 * time.Second)
+	done := make(chan bool)
+
+	timeout := time.After(1 * time.Second)
 	ticker := time.NewTicker(500 * time.Millisecond)
 
-	done := make(chan bool)
+	go func() {
+		time.Sleep(1 * time.Second)
+		done <- true
+	}()
 
 	defer ticker.Stop()
 
 	for {
 		select {
-		case <- ticker.C:
+		case <-ticker.C:
 			fmt.Printf(".")
-		case <- timeout:
+		case <-timeout:
 			fmt.Println("timeout!!!")
 			return
-		case <- done:
+		case <-done:
 			fmt.Println("job is done")
 			return
 		}

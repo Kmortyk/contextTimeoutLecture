@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e912a0dd-6453-46e3-aaf8-f07769515b7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example10_time_tick_since.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example01_context_value_goroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/example01_context_value_goroutine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra/example01_context_done.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example01_context_done.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example07_time_after_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/example07_time_after_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example08_time_sleep.go" beforeDir="false" afterPath="$PROJECT_DIR$/example08_time_sleep.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example10_time_ticker_timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/example11_time_ticker_timeout.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example00_my_ticker.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example00_my_ticker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example02_timeout_decorator.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example02_timeout_decorator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra/example03_worker_context.go" beforeDir="false" afterPath="$PROJECT_DIR$/extra/example03_worker_context.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +38,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/extra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/extra" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/extra" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra">
-    <configuration name="go build contextTimeoutLecture (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build contextTimeoutLecture/extra (2)">
+    <configuration name="go build contextTimeoutLecture (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -57,26 +62,7 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example02_context_value_struct.go" />
-      <package value="contextTimeoutLecture" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build contextTimeoutLecture (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="contextTimeoutLecture" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example04_context_cancel_cancel.go" />
+      <filePath value="$PROJECT_DIR$/example11_time_ticker_timeout.go" />
       <package value="contextTimeoutLecture" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -95,12 +81,12 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example05_context_deadline.go" />
+      <filePath value="$PROJECT_DIR$/example10_time_tick_since.go" />
       <package value="contextTimeoutLecture" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build contextTimeoutLecture" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build contextTimeoutLecture/extra (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="contextTimeoutLecture" />
       <working_directory value="$PROJECT_DIR$" />
       <EXTENSION ID="net.ashald.envfile">
@@ -114,8 +100,27 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/example03_context_cancel.go" />
-      <package value="contextTimeoutLecture" />
+      <filePath value="$PROJECT_DIR$/extra/example02_timeout_decorator.go" />
+      <package value="contextTimeoutLecture/extra" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build contextTimeoutLecture/extra (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="contextTimeoutLecture" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/extra/example03_worker_context.go" />
+      <package value="contextTimeoutLecture/extra" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -133,18 +138,18 @@
         </ENTRIES>
       </EXTENSION>
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/extra/example01_context_done.go" />
+      <filePath value="$PROJECT_DIR$/extra/example00_my_ticker.go" />
       <package value="contextTimeoutLecture/extra" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra (2)" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture/extra (1)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture/extra" />
+        <item itemvalue="Go Build.go build contextTimeoutLecture (2)" />
         <item itemvalue="Go Build.go build contextTimeoutLecture (5)" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture (4)" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture" />
-        <item itemvalue="Go Build.go build contextTimeoutLecture (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -164,34 +169,38 @@
       <screen x="0" y="27" width="1680" height="990" />
     </state>
     <state x="298" y="180" width="1084" height="729" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1680.990@0.27.1680.990" timestamp="1597907477710" />
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598284304446">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2" timestamp="1598286971651">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598284304446" />
-    <state width="1075" height="322" key="GridCell.Tab.0.bottom" timestamp="1598286604424">
+    <state x="371" y="70" width="927" height="911" key="CommitChangelistDialog2/0.27.1680.990@0.27.1680.990" timestamp="1598286971651" />
+    <state x="731" y="216" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598472150818">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1075" height="322" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598286604424" />
-    <state width="1075" height="322" key="GridCell.Tab.0.center" timestamp="1598286604423">
+    <state x="731" y="216" width="424" height="491" key="FileChooserDialogImpl/0.27.1680.990@0.27.1680.990" timestamp="1598472150818" />
+    <state width="1072" height="245" key="GridCell.Tab.0.bottom" timestamp="1598542138435">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1075" height="322" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598286604423" />
-    <state width="1075" height="322" key="GridCell.Tab.0.left" timestamp="1598286604423">
+    <state width="1072" height="245" key="GridCell.Tab.0.bottom/0.27.1680.990@0.27.1680.990" timestamp="1598542138435" />
+    <state width="1072" height="245" key="GridCell.Tab.0.center" timestamp="1598542138434">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1075" height="322" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598286604423" />
-    <state width="1075" height="322" key="GridCell.Tab.0.right" timestamp="1598286604424">
+    <state width="1072" height="245" key="GridCell.Tab.0.center/0.27.1680.990@0.27.1680.990" timestamp="1598542138434" />
+    <state width="1072" height="245" key="GridCell.Tab.0.left" timestamp="1598542138434">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state width="1075" height="322" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598286604424" />
-    <state x="329" y="157" width="1022" height="737" key="SettingsEditor" timestamp="1598283065257">
+    <state width="1072" height="245" key="GridCell.Tab.0.left/0.27.1680.990@0.27.1680.990" timestamp="1598542138434" />
+    <state width="1072" height="245" key="GridCell.Tab.0.right" timestamp="1598542138435">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="329" y="157" width="1022" height="737" key="SettingsEditor/0.27.1680.990@0.27.1680.990" timestamp="1598283065257" />
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598284305467">
+    <state width="1072" height="245" key="GridCell.Tab.0.right/0.27.1680.990@0.27.1680.990" timestamp="1598542138434" />
+    <state x="329" y="157" width="1022" height="737" key="SettingsEditor" timestamp="1598542136522">
       <screen x="0" y="27" width="1680" height="990" />
     </state>
-    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598284305467" />
+    <state x="329" y="157" width="1022" height="737" key="SettingsEditor/0.27.1680.990@0.27.1680.990" timestamp="1598542136522" />
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598286972902">
+      <screen x="0" y="27" width="1680" height="990" />
+    </state>
+    <state x="435" y="258" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1680.990@0.27.1680.990" timestamp="1598286972902" />
     <state x="531" y="261" width="880" height="522" key="find.popup" timestamp="1598285129282">
       <screen x="0" y="27" width="1680" height="990" />
     </state>

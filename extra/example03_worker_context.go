@@ -66,7 +66,6 @@ func (w *Worker) Stop() {
 func (w *Worker) IsStopped() bool {
 	w.mu.RLock()
 	defer w.mu.RUnlock()
-
 	return w.isStopped
 }
 
@@ -82,7 +81,7 @@ func main() {
 
 	// останавливаем второго
 	workers[2].Stop()
-	time.Sleep(3 * time.Second)
+	time.Sleep(10 * time.Second)
 
 	// завершаем остальных
 	cancel()

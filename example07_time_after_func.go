@@ -6,17 +6,18 @@ import (
 )
 
 /*
-	time.After создаёт канал, в который приходит сигнал после определённого
-	промежутка времени.
+	time.AfterFunc выполняет некоторую функцию через указанное время.
+	Функция запускается в отдельной горутине.
 */
 
 func main() {
-	c := make(chan string, 1)
+	t := time.Now()
+	end := make(chan struct{})
 
-	select {
-	case m := <-c:
-		fmt.Printf("We got message %v\n", m)
-	case <-time.After(3 * time.Second):
-		fmt.Println("timed out")
-	}
+	time.AfterFunc(3*time.Second, func() {
+		fmt.Printf("passed %v\n", time.Since(t))
+		end <- struct{}{}
+	})
+
+	<-end
 }
